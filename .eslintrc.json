@@ -1,32 +1,31 @@
 {
-  "plugins": ["prettier", "jest"],
-  "env": {
-    "node": true,
-    "commonjs": true,
-    "es6": true,
-    "jest": true
-  },
-  "extends": [
-    "react-app",
-    "eslint:recommended",
-    // "plugin:jest/recommended",
-    "plugin:prettier/recommended",
-    "prettier"
-  ],
-  "globals": {
-    "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
-  },
-  "parserOptions": {
-    "ecmaVersion": 2018,
-    "parser": "babel-eslint",
-    "sourceType": "module",
-    "allowImportExportEverywhere": true,
-    "codeFrame": true
-  },
-  "rules": {
-    "strict": 0,
-    "no-unused-vars": 0,
-    "prettier/prettier": ["error"]
-  }
+	"plugins": ["prettier", "jest"],
+	"env": {
+		"node": true,
+		"commonjs": true,
+		"es6": true,
+		"jest": true
+	},
+	"extends": [
+		"react-app",
+		"eslint:recommended",
+		"plugin:prettier/recommended",
+		"prettier"
+	],
+	"globals": {
+		"Atomics": "readonly",
+		"SharedArrayBuffer": "readonly"
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"parser": "babel-eslint",
+		"sourceType": "module",
+		"allowImportExportEverywhere": true,
+		"codeFrame": true
+	},
+	"rules": {
+		"strict": 0,
+		"no-unused-vars": 0,
+		"prettier/prettier": ["error"]
+	}
 }
